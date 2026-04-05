@@ -42,7 +42,7 @@ export default function ContactPage() {
 
         {/* Email CTA */}
         <Link
-          href="mailto:your@email.com"
+          href="mailto:inzemambaig@gmail.com"
           className="inline-flex items-center gap-2 rounded border border-teal-400/50 px-6 py-3 text-sm font-medium text-teal-300 transition-all duration-200 hover:border-teal-300 hover:bg-teal-400/10 focus-visible:border-teal-300"
         >
           Say Hello
@@ -67,18 +67,13 @@ export default function ContactPage() {
             {[
               {
                 label: "GitHub",
-                href: "https://github.com/yourusername",
-                handle: "@yourusername",
+                href: "https://github.com/inzemambaig",
+                handle: "@inzemambaig",
               },
               {
                 label: "LinkedIn",
-                href: "https://linkedin.com/in/yourusername",
-                handle: "Your Name",
-              },
-              {
-                label: "Twitter / X",
-                href: "https://twitter.com/yourusername",
-                handle: "@yourusername",
+                href: "https://www.linkedin.com/in/inzemam-baig/",
+                handle: "Inzemam Baig",
               },
             ].map((s) => (
               <li key={s.label}>

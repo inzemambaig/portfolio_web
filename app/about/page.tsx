@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "About — Your Name",
+  title: "About — Inzemam Baig",
   description: "Learn more about me, my background, and what I do.",
 };
 

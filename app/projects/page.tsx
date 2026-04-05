@@ -4,7 +4,7 @@ import TechTag from "@/components/TechTag";
 import { projects } from "@/data/projects";
 
 export const metadata: Metadata = {
-  title: "Project Archive — Your Name",
+  title: "Project Archive — Inzemam Baig",
   description: "A complete archive of all personal and professional projects.",
 };
 
