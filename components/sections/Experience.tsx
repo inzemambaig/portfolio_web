@@ -77,8 +77,8 @@ export default function Experience() {
       </ol>
 
       <div className="mt-8">
-        <Link
-          href="/resume.pdf"
+        <a
+          href="/inzemam_baig_resume.pdf"
           target="_blank"
           rel="noreferrer noopener"
           className="inline-flex items-center gap-2 font-medium text-slate-200 hover:text-teal-300 focus-visible:text-teal-300"
@@ -97,7 +97,7 @@ export default function Experience() {
               clipRule="evenodd"
             />
           </svg>
-        </Link>
+        </a>
       </div>
     </section>
   );
