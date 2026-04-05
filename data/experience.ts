@@ -10,29 +10,38 @@ export type ExperienceItem = {
 export const experience: ExperienceItem[] = [
   {
     role: "Senior Software Engineer",
-    company: "Awesome Company",
-    companyUrl: "https://example.com",
-    period: "2023 — Present",
+    company: "Infosys",
+    companyUrl: "https://www.infosys.com",
+    period: "January 2024 — Present",
     description:
       "Lead development of the core product platform, collaborating with cross-functional teams to ship high-quality features. Championed accessibility, performance improvements, and developer experience across the engineering org.",
-    techStack: ["TypeScript", "React", "Next.js", "Node.js", "AWS"],
+    techStack: ["Java", "Spring Boot", "MicroServices", "Kubernetes","Terraform","Docker", "AWS"],
   },
   {
-    role: "Software Engineer",
-    company: "Cool Startup",
-    companyUrl: "https://example.com",
-    period: "2021 — 2023",
+    role: "Senior Java Developer",
+    company: "Cognizant",
+    companyUrl: "https://www.cognizant.com",
+    period: "October 2021 — December 2023",
     description:
       "Built and maintained key features for a B2B SaaS platform. Collaborated closely with design and product to iterate quickly and deliver polished experiences for thousands of daily active users.",
-    techStack: ["React", "GraphQL", "PostgreSQL", "Docker"],
+    techStack: ["Java", "Spring Boot", "PostgreSQL", "Docker"],
   },
   {
-    role: "Frontend Developer",
-    company: "Digital Agency",
-    companyUrl: "https://example.com",
-    period: "2019 — 2021",
+    role: "Java Developer",
+    company: "TCS",
+    companyUrl: "https://www.tcs.com",
+    period: "February 2019 — September 2021",
     description:
       "Developed responsive, accessible websites and web apps for a diverse portfolio of clients. Delivered projects on time while maintaining high code quality standards.",
-    techStack: ["JavaScript", "Vue.js", "SCSS", "WordPress"],
+    techStack: ["Java", "Spring Boot", "PostgreSQL", "Docker","Jmeter"],
+  },
+  {
+    role: "Python Developer",
+    company: "Lets Nurture",
+    companyUrl: "https://www.letsnurture.com",
+    period: "July 2018 — January 2019",
+    description:
+      "Developed responsive, accessible websites and web apps for a diverse portfolio of clients. Delivered projects on time while maintaining high code quality standards.",
+    techStack: ["Python", "Django", "Flask", "PostgreSQL"],
   },
 ];
