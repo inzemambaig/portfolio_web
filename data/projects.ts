@@ -23,4 +23,12 @@ export const projects: Project[] = [
     liveUrl: "https://mockintervu.netlify.app/",
     featured: true,
   },
+  {
+    title: "RAG-Based PDF Q&A System",
+    description:
+      "Developed a full-stack RAG-based PDF Q&A system using FastAPI, LangChain, FAISS, and OpenAI, with a visual pipeline interface to demonstrate chunking, embeddings, semantic search, and LLM response generation.",
+    techStack: ["FastAPI", "LangChain", "FAISS", "OpenAI", "RAG"],
+    liveUrl: "https://rag-explorer-frontend.onrender.com/",
+    featured: true,
+  },
 ];
