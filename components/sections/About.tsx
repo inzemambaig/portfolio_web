@@ -28,10 +28,8 @@ export default function About() {
         <p>
           When I'm not at my desk, you can find me{" "}
           <span className="text-slate-300">
-            [your hobby, e.g. hiking / reading / gaming]
+            listening to podcasts, watching stand-up comedy, cooking my favorite dishes, or working out.
           </span>
-          , or exploring new places with my{" "}
-          <span className="text-slate-300">[family/friends/pet]</span>.
         </p>
       </div>
     </section>
