@@ -9,53 +9,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    title: "Project Alpha",
+    title: "GenAI Customer Onboarding & Personalization Platform",
     description:
-      "A full-stack web application that does something awesome. Built with modern tools and deployed to the cloud. Replace this with a real description of your best project.",
-    techStack: ["Next.js", "TypeScript", "PostgreSQL", "Tailwind CSS"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/project-alpha",
+      "POC for Danske Bank — a GenAI-powered onboarding assistant using AWS Bedrock Agents. Built LLM-driven workflows for customer data collection, KYC validation, and product recommendations. Integrated AWS Knowledge Bases for context-aware responses and designed an end-to-end onboarding-to-fulfillment flow using microservices.",
+    techStack: ["AWS Bedrock", "LLM", "Microservices", "AWS Knowledge Bases", "GenAI"],
     featured: true,
   },
   {
-    title: "Project Beta",
+    title: "AI Mock Interview & Resume Analysis Platform",
     description:
-      "An open-source tool that helps developers automate repetitive tasks. Gained traction with the community and is actively maintained.",
-    techStack: ["Node.js", "TypeScript", "CLI", "Jest"],
-    githubUrl: "https://github.com/yourusername/project-beta",
+      "AI-powered platform to analyze resumes and generate role-specific interview questions. Integrated AI models to extract skills and experience from resumes, implemented LLM-based answer evaluation with structured feedback reports, and designed a complete workflow from resume upload to interview simulation.",
+    techStack: ["AI/LLM", "Resume Parsing", "Next.js", "TypeScript"],
+    liveUrl: "https://mockintervu.netlify.app/",
     featured: true,
-  },
-  {
-    title: "Project Gamma",
-    description:
-      "A mobile-first web app for tracking personal goals and habits. Features real-time sync and offline support.",
-    techStack: ["React", "Firebase", "Tailwind CSS", "PWA"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com/yourusername/project-gamma",
-    featured: true,
-  },
-  {
-    title: "Project Delta",
-    description:
-      "A data visualization dashboard for exploring public datasets interactively.",
-    techStack: ["D3.js", "React", "REST API"],
-    liveUrl: "https://example.com",
-    featured: false,
-  },
-  {
-    title: "Project Epsilon",
-    description:
-      "A browser extension that improves reading experience on the web.",
-    techStack: ["JavaScript", "Chrome Extension API", "CSS"],
-    githubUrl: "https://github.com/yourusername/project-epsilon",
-    featured: false,
-  },
-  {
-    title: "Project Zeta",
-    description:
-      "A REST API boilerplate with authentication, rate limiting, and full test coverage.",
-    techStack: ["Express", "TypeScript", "JWT", "Prisma"],
-    githubUrl: "https://github.com/yourusername/project-zeta",
-    featured: false,
   },
 ];
