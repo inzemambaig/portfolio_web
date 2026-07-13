@@ -9,16 +9,16 @@ export type ExperienceItem = {
 
 export const experience: ExperienceItem[] = [
   {
-    role: "Senior Software Developer",
+    role: "Senior AI/ML Developer",
     company: "Infosys",
     companyUrl: "https://www.infosys.com",
     period: "Jan 2024 — Present",
     description:
-      "Architected and deployed microservices on AWS using Java, Spring Boot, and PostgreSQL for high-volume banking applications. Led monolith-to-microservices migration, improving system scalability and deployment frequency by 30%. Containerized applications using Docker and orchestrated with Kubernetes on AWS, ensuring high availability. Implemented infrastructure as code using Terraform, reducing provisioning time from days to hours. Optimized JVM performance and database queries, reducing response latency by 20%. Established API security standards, encryption protocols, and compliance controls.",
-    techStack: ["Java", "Spring Boot", "Microservices", "PostgreSQL", "Docker", "Kubernetes", "AWS", "Terraform"],
+      "Built enterprise GenAI solutions using AWS Bedrock, Knowledge Bases, and Retrieval-Augmented Generation (RAG) for document understanding, semantic search, and intelligent recommendations. Designed LLM-powered workflows for customer onboarding and KYC validation, integrating both AWS Bedrock and Azure OpenAI endpoints. Developed Python and Java (Spring Boot) backend services and REST APIs to orchestrate AI workflows, backed by PostgreSQL for workflow and metadata persistence. Led monolith-to-microservices migration, improving deployment agility and system scalability by 30%. Containerized and deployed workloads on Kubernetes, with infrastructure automated via Terraform and CI/CD pipelines. Implemented JWT-based authentication, RBAC, and compliance-driven API security standards.",
+    techStack: ["Python", "AWS Bedrock", "RAG", "LangChain", "Java", "Spring Boot", "PostgreSQL", "Docker", "Kubernetes", "Terraform"],
   },
   {
-    role: "Senior Java Developer",
+    role: "Senior Application Engineer",
     company: "Cognizant",
     companyUrl: "https://www.cognizant.com",
     period: "Oct 2021 — Dec 2023",
@@ -27,12 +27,12 @@ export const experience: ExperienceItem[] = [
     techStack: ["Java", "Spring Boot", "GCP", "Apache Kafka", "Microservices", "PostgreSQL", "Docker"],
   },
   {
-    role: "Java Developer",
+    role: "Application Engineer",
     company: "Tata Consultancy Services",
     companyUrl: "https://www.tcs.com",
     period: "Feb 2019 — Sept 2021",
     description:
-      "Developed backend modules using Spring and PostgreSQL to automate tax return processing. Improved performance by 20% via optimized multithreading and JMeter-based load testing. Integrated Prometheus for performance monitoring and bottleneck detection.",
+      "Developed backend modules using Spring and PostgreSQL to automate tax return processing, including large-scale VAT return workflows for a government client. Improved performance by 20% via optimized multithreading and JMeter-based load testing. Integrated Prometheus for performance monitoring and bottleneck detection.",
     techStack: ["Java", "Spring", "PostgreSQL", "JMeter", "Prometheus"],
   },
   {
