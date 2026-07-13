@@ -9,7 +9,7 @@ export default function Sidebar() {
           Inzemam Baig
         </h1>
         <h2 className="mt-3 text-lg font-medium tracking-tight text-slate-200 sm:text-xl">
-          Senior Backend Engineer | AI & LLM Applications | Cloud Native
+          AI/ML Engineer | AI & LLM Applications | Cloud Native
         </h2>
         <p className="mt-4 max-w-xs text-sm leading-normal text-slate-400">
           I Design microservices and AI-driven systems that scale
