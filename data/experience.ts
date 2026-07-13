@@ -23,8 +23,8 @@ export const experience: ExperienceItem[] = [
     companyUrl: "https://www.cognizant.com",
     period: "Oct 2021 — Dec 2023",
     description:
-      "Led secure cloud data migration of sensitive healthcare data from on-premise systems to Google Cloud Platform (GCP) for a US-based client, with primary focus on HIPAA compliance and protection of Patient Health Information (PHI). Collaborated with compliance teams to validate adherence to healthcare regulations, ensuring auditability and risk mitigation. Coordinated with US-based technical teams to validate data post-migration for downstream analytics. Designed and implemented event-driven architecture using Apache Kafka for real-time data processing. Built cloud-native microservices ensuring seamless inter-service communication and scalability. Developed asynchronous task scheduling systems for intelligent data flow automation.",
-    techStack: ["Java", "Spring Boot", "GCP", "Apache Kafka", "Microservices", "PostgreSQL", "Docker"],
+      "Led secure cloud data migration of sensitive healthcare data from on-premise systems to Amazon Web Services (AWS) for a US-based client, with primary focus on HIPAA compliance and protection of Patient Health Information (PHI). Collaborated with compliance teams to validate adherence to healthcare regulations, ensuring auditability and risk mitigation. Coordinated with US-based technical teams to validate data post-migration for downstream analytics. Designed and implemented event-driven architecture using Apache Kafka for real-time data processing. Built cloud-native microservices ensuring seamless inter-service communication and scalability. Developed asynchronous task scheduling systems for intelligent data flow automation.",
+    techStack: ["Java", "Spring Boot", "AWS", "Apache Kafka", "Microservices", "PostgreSQL", "Docker"],
   },
   {
     role: "Application Engineer",
